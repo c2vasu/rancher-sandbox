@@ -59,10 +59,13 @@ database:
 ###  Set up the environment variables needed for Rancher Compose
 ```
 # Set the url that Rancher is on
+# export RANCHER_URL=http://192.168.99.100:8080/
 $ export RANCHER_URL=http://server_ip:8080/
 # Set the access key, i.e. username
+# export RANCHER_ACCESS_KEY=F8277CFC6872A08A2FD4
 $ export RANCHER_ACCESS_KEY=<username_of_key>
 # Set the secret key, i.e. password
+# export RANCHER_SECRET_KEY=WsHxTJXAY4Twiebm61JbioRbKp74iaJKtFW53Nbp
 $ export RANCHER_SECRET_KEY=<password_of_key>
 ```
 ### Run Rancher Compose
